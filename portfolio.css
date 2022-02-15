@@ -383,8 +383,6 @@ nav ul li a:hover::after {
 	
 	
 	.container{
-	height: 80vh;
-	width: 100%;
 	background-image:linear-gradient(rgba(4,7,15,0.7),rgba(4,7,15,0.7)),url(images/laptop.jpg);
 	background-size: cover;
 	background-position: center;
