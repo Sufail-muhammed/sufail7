@@ -1,11 +1,12 @@
-body{
+body, html{
 	margin:0;
-	box-sizing:border-box; 
+	height:100%;
 }
 .container{
-	height: 100vh;
-	width: 100%;
 	background-image:linear-gradient(rgba(4,9,25,0.7),rgba(4,9,25,0.7)),url(images/laptop.jpg);
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
 	background-size: cover;
 }
 .header{
@@ -395,10 +396,10 @@ nav ul li a:hover::after {
 	.Name {
     font-family: 'poppins', sans-serif;
     letter-spacing: 5px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 300px;
+    margin-top: 200px;
     animation: type 4s steps(19);
     overflow: hidden;
     white-space: nowrap;
@@ -409,7 +410,7 @@ nav ul li a:hover::after {
     margin-top: -30px;
     font-family: arial;
     letter-spacing: 3px;
-    font-size: 18px;
+    font-size: 14px;
     color: lightgray;
     margin-left: 50px;
 }
@@ -425,8 +426,8 @@ nav ul li a:hover::after {
 }
 .about{
 	
-	height: 720px;
-	width: 100%;
+	height: auto;
+	
 }
 .abt{
 	background-color: #fff;
