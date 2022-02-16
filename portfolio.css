@@ -3,7 +3,7 @@ body, html{
 	height:100%;
 }
 .container{
-	background-image:linear-gradient(rgba(4,9,25,0.7),rgba(4,9,25,0.7)),url(images/laptop.jpg);
+	background-image:linear-gradient(rgba(4,7,15,0.74,7,15,0.7),rgba(4,7,15,0.7)),url(images/laptop.jpg);
 	height:100%;
 	background-position:center;
 	background-size: cover;
