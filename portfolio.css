@@ -383,7 +383,9 @@ nav ul li a:hover::after {
 	
 	
 	.container{
-	width:100%;	
+	height: auto;
+	width: 100%;
+	max-width: 600px;
 	background-image:linear-gradient(rgba(4,7,15,0.7),rgba(4,7,15,0.7)),url(images/laptop.jpg);
 	background-size: cover;
 	background-position: center;
@@ -435,7 +437,7 @@ nav ul li a:hover::after {
 	padding-left: 15px;
 	padding-right: 5px;
 	padding-bottom: 30px;
-	width:300px;
+	width:250px;
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 	margin-left: 350px;
 	margin-top: -190px;
@@ -451,6 +453,10 @@ nav ul li a:hover::after {
 	margin-top: -25px;
 	padding-top: 30px;
 	padding-right: 10px;
+}
+	.aboutimg{
+	height: 274px;
+	width: 250px;
 }
 .services{
   		display: block;
@@ -501,9 +507,13 @@ nav ul li a:hover::after {
 	padding-right: 100px;
 
 }
+	.footer{
+	background-color: #002233;
+	width: 100%;
+}
 .icons2 {
     display: flex;
-    margin-left: 220px;
+    margin-left: 250px;
     text-align: center;
 }
 .srvc{
