@@ -413,7 +413,7 @@ nav ul{
     font-size: 30px;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 200px;
+    margin-top: 300px;
     animation: type 4s steps(19);
     overflow: hidden;
     white-space: nowrap;
