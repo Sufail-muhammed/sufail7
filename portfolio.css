@@ -386,7 +386,6 @@ nav ul li a:hover::after {
 	.container{
 	background-image:linear-gradient(rgba(4,7,15,0.7),rgba(4,7,15,0.7)),url(image2/bg.jpg);
 	background-size:cover;
-		width:100%;
 	}
 	.Name {
     font-size: 35px;
@@ -461,12 +460,23 @@ nav ul li a:hover::after {
 .hrme{
 	margin-left: 20px;
 }
+	.cv{
+		margin-left: 100px;	
+}
 	.row{
 	justify-content: space-between;
 	display: flex;
 	padding-top: 20px;
 	padding-left: 100px;
 	
+}
+	.row{
+	justify-content: space-between;
+	display: block;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+
 }
 .work{
 	flex-basis:28%; 
@@ -506,14 +516,7 @@ nav ul li a:hover::after {
 	margin-right: 100px;
 
 }
-.row{
-	justify-content: space-between;
-	display: block;
-	padding-top: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
 
-}
 .top{
 	text-decoration: none;
 	color: black;
