@@ -386,6 +386,7 @@ nav ul li a:hover::after {
 	.container{
 	background-image:linear-gradient(rgba(4,7,15,0.7),rgba(4,7,15,0.7)),url(image2/bg.jpg);
 	background-size:cover;
+		width:100%;
 	}
 	.Name {
     font-size: 35px;
@@ -459,11 +460,6 @@ nav ul li a:hover::after {
 }
 .hrme{
 	margin-left: 20px;
-}
-.services{
-  		display: block;
-  		height: 720px;
-
 }
 	.row{
 	justify-content: space-between;
