@@ -558,6 +558,7 @@ nav ul li a:hover::after {
 	padding-left: 100px;
 	padding-right: 100px;
 	align-items:center;
+	margin-left:100px;
 
 
 }
@@ -568,6 +569,7 @@ nav ul li a:hover::after {
 	padding-left: 100px;
 	padding-right: 100px;
 	align-items:center;
+	margin-left:100px;
 
 }
 .footer{
