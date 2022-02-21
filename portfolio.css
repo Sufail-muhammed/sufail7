@@ -387,6 +387,7 @@ nav ul li a:hover::after {
 @media(max-width: 700px){
 	.Name {
     font-size: 27px;
+		letter-spacing: 3px;
     font-weight: bold;
     margin-left: 0px;
     margin-top: 200px;
@@ -491,7 +492,7 @@ nav ul li a:hover::after {
 	margin-left: 10px;
 }
 .cv{
-		margin-left: 50px;	
+		margin-left: 30px;	
 }
 }
 @media(max-width: 700px){
