@@ -377,25 +377,25 @@ nav ul li a:hover::after {
 	margin: 25px 5px;
 	
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 	
 	.container{
 	background-image:linear-gradient(rgba(0,7,15,0.7),rgba(0,7,15,0.7)),url(bg.jpg);
 	background-size:cover;
 	}
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 	.Name {
-    font-size: 27px;
-		letter-spacing: 3px;
+    font-size: 30px;
+    letter-spacing: 2px;
     font-weight: bold;
     margin-left: 0px;
     margin-top: 200px;
-    animation: type 4s steps(21);
+    animation: type 4s steps(19);
     overflow: hidden;
     white-space: nowrap;
     border-right: 4px solid white;
-    width: 21ch;
+    width: 19ch;
 }
 @keyframes type {
 
@@ -404,14 +404,14 @@ nav ul li a:hover::after {
 	
 	}
 	100%{
-		width: 21ch;
+		width: 19ch;
 	}
 }
 	.dis{ 
     margin-top: -30px;
     font-family: Malgun Gothic;
     letter-spacing: 3px;
-    font-size: 14px;
+    font-size: 15px;
     color: lightgray;
     margin-left: 0px;
 }
@@ -433,7 +433,11 @@ nav ul li a:hover::after {
 	cursor: pointer;
 }
 }
-@media(max-width: 700px){
+.icons img{
+	width: 20px;
+	margin: 20px 5px;
+	}
+@media(max-width: 900px){
 .about{
 	
 	height: auto;
@@ -467,14 +471,14 @@ nav ul li a:hover::after {
 	padding-left: 20px;
 }
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 .aboutimg{
 	margin-left: 10px;
 	height: 230px;
 	width: 210px;
 	}
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 .abtname{
 	margin-left: 30px;
 }
@@ -487,15 +491,15 @@ nav ul li a:hover::after {
 	padding-right: 10px;
 }
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 .hrme{
 	margin-left: 10px;
 }
 .cv{
-		margin-left: 30px;	
+		margin-left: 50px;	
 }
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 	.srcsub{
 		margin-left: 0px;
 	}
@@ -524,7 +528,7 @@ nav ul li a:hover::after {
 	box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
 }
 }
-@media(max-width: 700px){
+@media(max-width: 900px){
 	.cnt{
 		margin-left: 20px;
 	}
@@ -557,9 +561,6 @@ nav ul li a:hover::after {
 	padding-top: 20px;
 	padding-left: 100px;
 	padding-right: 100px;
-	align-items:center;
-	margin-left:100px;
-
 
 }
 .row{
@@ -568,8 +569,6 @@ nav ul li a:hover::after {
 	padding-top: 50px;
 	padding-left: 100px;
 	padding-right: 100px;
-	align-items:center;
-	margin-left:100px;
 
 }
 .footer{
@@ -578,12 +577,238 @@ nav ul li a:hover::after {
 }
 .footer p{
 	color: lightgray;
+	font-size: 13px;
 }
 .icons2 {
     display: flex;
-    margin-left: 185px;
+    margin-left: 145px;
 
+    
    }
+   .icons2 img{
+	width: 20px;
+	margin: 20px 5px;
+}
+.srvc{
+	font-family:  Malgun Gothic;
+	font-size: 30px;
+	margin-left: 80px;
+	margin-top: 100px; 
+}
+
+	} 
+	@media(max-width: 820px){
+	
+	.container{
+	background-image:linear-gradient(rgba(0,7,15,0.7),rgba(0,7,15,0.7)),url(bg.jpg);
+	background-size:cover;
+	}
+}
+@media(max-width: 820px){
+	.Name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 200px;
+    animation: type 4s steps(19);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid white;
+    width: 19ch;
+}
+@keyframes type {
+
+	0%{
+		width: 0ch;
+	
+	}
+	100%{
+		width: 19ch;
+	}
+}
+	.dis{ 
+    margin-top: -30px;
+    font-family: Malgun Gothic;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: lightgray;
+    margin-left: 0px;
+}
+.dis:hover{
+	color: white;
+	transition: 0.5s ease-in-out;
+	cursor:pointer;
+}
+
+.btn{
+	margin-left: 0px;
+	margin-top: -53px;
+	width: 150px;
+	height: 45px;
+	border:2px solid red;
+	background: transparent;
+	color: red;
+	border-radius:5px;
+	cursor: pointer;
+}
+}
+.icons img{
+	width: 20px;
+	margin: 20px 5px;
+	}
+@media(max-width: 820px){
+.about{
+	
+	height: auto;
+	width: 100%;
+}
+.abtme{
+	margin-left: 20px;
+	 }
+.abtexp{
+	margin-left: 0px;
+	}
+.abt{
+	padding-top: 100px;
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-bottom: 30px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	width: 230px;
+	margin-left: 140px;
+	margin-top: -100px;
+}
+.quote{
+	margin-top: 100px;
+	margin-left: 50px;
+	box-sizing: border-box;
+	border:3px solid#3333;
+	width: 300px;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+}
+@media(max-width: 820px){
+.aboutimg{
+	margin-left: 10px;
+	height: 230px;
+	width: 210px;
+	}
+}
+@media(max-width: 820px){
+.abtname{
+	margin-left: 30px;
+}
+.abtdis{
+	font-size: 18px;
+	margin-left: 35px; 
+	color: gray;
+	margin-top: -25px;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+}
+@media(max-width: 820px){
+.hrme{
+	margin-left: 10px;
+}
+.cv{
+		margin-left: 50px;	
+}
+}
+@media(max-width: 820px){
+	.srcsub{
+		margin-left: 0px;
+	}
+	.services .srvc{
+		margin-left: 20px;
+	}
+.services{
+  		display: block;
+  		height: auto;
+}
+.row{
+	justify-content: space-between;
+	display: flex;
+	padding-top: 20px;
+	padding-left: 100px;
+	margin-right: 100px;
+}
+.work{
+	flex-basis:28%; 
+	box-sizing: border-box;
+	background:#fff;
+	border-radius:10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	transition: 0.5s;
+	box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+}
+@media(max-width: 820px){
+	.cnt{
+		margin-left: 20px;
+	}
+	.cntsub{
+		margin-left: 20px;
+	}
+.cntrow{
+	display: block;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 100px;
+	margin-right: 100px;
+
+}
+.cntme{
+	background-color: #fff;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding: 20px 12px;
+	transition: 0.5s;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	margin-top: 30px;
+	text-align: center;
+}
+
+.cntrow{
+	display: block;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+.row{
+	justify-content: space-between;
+	display: block;
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+.footer{
+	background-color: black;
+	width: 100%;
+}
+.footer p{
+	color: lightgray;
+	font-size: 13px;
+}
+.icons2 {
+    display: flex;
+    margin-left: 145px;
+
+    
+   }
+   .icons2 img{
+	width: 20px;
+	margin: 20px 5px;
+}
 .srvc{
 	font-family:  Malgun Gothic;
 	font-size: 30px;
