@@ -538,8 +538,7 @@ nav ul li a:hover::after {
 	display: block;
 	justify-content: space-between;
 	padding-top: 20px;
-	padding-left: 100px;
-	margin-right: 100px;
+	padding-left: 20px;
 
 }
 .cntme{
@@ -590,7 +589,7 @@ nav ul li a:hover::after {
 .srvc{
 	font-family:  Malgun Gothic;
 	font-size: 30px;
-	margin-left: 80px;
+	margin-left: 20px;
 	margin-top: 100px; 
 }
 
@@ -732,8 +731,8 @@ nav ul li a:hover::after {
 	justify-content: space-between;
 	display: flex;
 	padding-top: 20px;
-	padding-left: 100px;
-	margin-right: 100px;
+	padding-left: 20px;
+	margin-right: 20px;
 }
 .work{
 	flex-basis:28%; 
@@ -757,8 +756,8 @@ nav ul li a:hover::after {
 	display: block;
 	justify-content: space-between;
 	padding-top: 20px;
-	padding-left: 100px;
-	margin-right: 100px;
+	padding-left: 20px;
+	margin-right: 20px;
 
 }
 .cntme{
@@ -777,16 +776,15 @@ nav ul li a:hover::after {
 	display: block;
 	justify-content: space-between;
 	padding-top: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
 .row{
 	justify-content: space-between;
 	display: block;
 	padding-top: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 20px;
 
 }
 .footer{
@@ -810,7 +808,7 @@ nav ul li a:hover::after {
 .srvc{
 	font-family:  Malgun Gothic;
 	font-size: 30px;
-	margin-left: 80px;
+	margin-left: 20px;
 	margin-top: 100px; 
 }
 	}
